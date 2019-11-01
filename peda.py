@@ -25,7 +25,7 @@ if os.path.islink(PEDAFILE):
     PEDAFILE = os.readlink(PEDAFILE)
 sys.path.insert(0, os.path.dirname(PEDAFILE) + "/lib/")
 
-# Use six library to provide Python 2/3 compatibility
+
 import six
 from six.moves import range
 from six.moves import input
