@@ -4,7 +4,6 @@
 #
 #       License: see LICENSE file for details
 #
-#
 
 from __future__ import absolute_import
 from __future__ import division
